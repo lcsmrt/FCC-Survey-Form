@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Science Trust Level - Survey Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Lucas Alves Martins Silva">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">Science Trust Level Survey</h1>
+        <p id="description">Thank you for taking the time to complete this survey.</p><hr>
+      </header>
+  
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input id="name" class="form-field" type="text" name="name" placeholder="Enter your name..." required></input>
+        </div>
+  
+        <div class="form-group">
+          <label id="email-label" for="email">E-mail</label>
+          <input id="email" class="form-field" type="email" name="email" placeholder="Enter your e-mail..." required></input>
+        </div>
+  
+        <div class="form-group">
+          <label id="number-label" for="number">Age</label>
+          <input id="number" class="form-field" type="number" name="number" placeholder="Enter your age..." min="6" max="150" required></input>
+        </div>
+  
+        <div class="form-group">
+          <label id="dropdown-label" for="dropdown">Education</label>
+          <select id="dropdown" class="form-field" name="dropdown">
+            <option value="">Select your level of education...</option>
+            <option value="incomplete high school">Incomplete High School</option>
+            <option value="high school">High School</option>
+            <option value="incomplete college">Incomplete College</option>
+            <option value="college degree">College Degree</option>
+            <option value="masters degree">Master's Degree</option>
+            <option value="phd">Ph.D.</option>
+          </select>
+        </div>
+  
+        <p>Mark the option that best describes what you think about the following statements:</p>
+  
+        <div class="form-group">
+          <p>The universe is ~13 billion years old.</p>
+          <div class="radio-group">
+            <label for="radio01SA">Strongly Agree</label>
+            <label for="radio01A">Agree</label>
+            <label for="radio01N">Neutral</label>
+            <label for="radio01D">Disagree</label>
+            <label for="radio01SD">Strongly Disagree</label>
+            <input id="radio01SA" type="radio" value="01SA" name="radiogroup01">
+            <input id="radio01A" type="radio" value="01A" name="radiogroup01">
+            <input id="radio01N" type="radio" value="01N" name="radiogroup01">
+            <input id="radio01D" type="radio" value="01D" name="radiogroup01">
+            <input id="radio01SD" type="radio" value="01SD" name="radiogroup01">
+          </div> 
+        </div>
+  
+        <div class="form-group">
+          <p>Astronauts went to the moon.</p>
+          <div class="radio-group">
+            <label for="radio02SA">Strongly Agree</label>
+            <label for="radio02A">Agree</label>
+            <label for="radio02N">Neutral</label>
+            <label for="radio02D">Disagree</label>
+            <label for="radio02SD">Strongly Disagree</label>
+            <input id="radio02SA" type="radio" value="02SA" name="radiogroup02">
+            <input id="radio02A" type="radio" value="02A" name="radiogroup02">
+            <input id="radio02N" type="radio" value="02N" name="radiogroup02">
+            <input id="radio02D" type="radio" value="02D" name="radiogroup02">
+            <input id="radio02SD" type="radio" value="02SD" name="radiogroup02">
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <p>The Earth is spherical.</p>
+          <div class="radio-group">
+            <label for="radio03SA">Strongly Agree</label>
+            <label for="radio03A">Agree</label>
+            <label for="radio03N">Neutral</label>
+            <label for="radio03D">Disagree</label>
+            <label for="radio03SD">Strongly Disagree</label>
+            <input id="radio03SA" type="radio" value="03SA" name="radiogroup03">
+            <input id="radio03A" type="radio" value="03A" name="radiogroup03">
+            <input id="radio03N" type="radio" value="03N" name="radiogroup03">
+            <input id="radio03D" type="radio" value="03D" name="radiogroup03">
+            <input id="radio03SD" type="radio" value="03SD" name="radiogroup03">
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <p>Climate change is real.</p>
+          <div class="radio-group">
+            <label for="radio04SA">Strongly Agree</label>
+            <label for="radio04A">Agree</label>
+            <label for="radio04N">Neutral</label>
+            <label for="radio04D">Disagree</label>
+            <label for="radio04SD">Strongly Disagree</label>
+            <input id="radio04SA" type="radio" value="04SA" name="radiogroup04">
+            <input id="radio04A" type="radio" value="04A" name="radiogroup04">
+            <input id="radio04N" type="radio" value="04N" name="radiogroup04">
+            <input id="radio04D" type="radio" value="04D" name="radiogroup04">
+            <input id="radio04SD" type="radio" value="04SD" name="radiogroup04">
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <p>Humans and monkeys have a common ancestor.</p>
+          <div class="radio-group">
+            <label for="radio05SA">Strongly Agree</label>
+            <label for="radio05A">Agree</label>
+            <label for="radio05N">Neutral</label>
+            <label for="radio05D">Disagree</label>
+            <label for="radio05SD">Strongly Disagree</label>
+            <input id="radio05SA" type="radio" value="05SA" name="radiogroup05">            
+            <input id="radio05A" type="radio" value="05A" name="radiogroup05">
+            <input id="radio05N" type="radio" value="05N" name="radiogroup05">
+            <input id="radio05D" type="radio" value="05D" name="radiogroup05">
+            <input id="radio05SD" type="radio" value="05SD" name="radiogroup05">
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <p>Vaccines work and are safe.</p>
+          <div class="radio-group">
+            <label for="radio06SA">Strongly Agree</label>
+            <label for="radio06A">Agree</label>
+            <label for="radio06N">Neutral</label>
+            <label for="radio06D">Disagree</label>
+            <label for="radio06SD">Strongly Disagree</label>
+            <input id="radio06SA" type="radio" value="06SA" name="radiogroup06">
+            <input id="radio06A" type="radio" value="06A" name="radiogroup06">
+            <input id="radio06N" type="radio" value="06N" name="radiogroup06">
+            <input id="radio06D" type="radio" value="06D" name="radiogroup06">
+            <input id="radio06SD" type="radio" value="06SD" name="radiogroup06">
+          </div>
+        </div>
+          
+        <div class="form-group">
+          <label id="textarea-label" for="textarea">If you have any doubts or sugestions you can send us a message.</label>
+          <textarea id="textarea" name="textarea" placeholder="Enter your message..."></textarea>
+        </div>
+          
+        <div class="form-group">
+          <div class="checkbox-group">
+            <label for="checkbox-privacypolicy">
+              <input id="checkbox-privacypolicy" type="checkbox" value="agreed" name="checkboxes">I have read and agreed to the&nbsp;<a href="#" target="_blank">Privacy Policy</a>.
+            </label>
+            <label for="checkbox-newsletter">
+              <input id="checkbox-newsletter" type="checkbox" value="subscribe" name="checkboxes">Subscribe to our newsletter.
+            </label>
+          </div>
+        </div>
+  
+        <div id="submit-div" class="form-group">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
